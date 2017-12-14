@@ -14,11 +14,17 @@
             "homepage": "https://github.com/nelmio/NelmioApiDocBundle/contributors"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/eurodata/swagger.git"
+        }
+    ],
     "require": {
         "php": "^7.0",
         "symfony/framework-bundle": "^3.2.5|^4.0",
         "symfony/property-info": "^3.1|^4.0",
-        "exsyst/swagger": "~0.3",
+        "exsyst/swagger": "dev-master",
         "zircote/swagger-php": "^2.0.9"
     },
     "require-dev": {
